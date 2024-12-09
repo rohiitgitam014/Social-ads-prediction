@@ -16,8 +16,8 @@ The data was divided into training (70%) and testing (30%) sets. Each model was 
 
 Model Evaluation:
 
-Logistic Regression: This model achieved an accuracy of 86% on the test set, performing well in identifying both purchasing and non-purchasing users.
-Decision Tree Classifier: It achieved an accuracy of 87%, slightly improving upon the Logistic Regression model by capturing more positive cases (buyers).
-Random Forest Classifier: Also achieving 87% accuracy, this model provided enhanced generalization and stability, making it the most reliable option for this dataset.
+Logistic Regression: This model achieved an accuracy of 86% on the test set, performing well in identifying both purchasing and non-purchasing users. this model provided enhanced generalization and stability, making it the most reliable option for this dataset.
+Decision Tree Classifier: It achieved an accuracy of 78%, less than  the Logistic Regression model by capturing more positive cases (buyers).
+Random Forest Classifier: It achieved an accuracy of 80%, slightly improving upon the Decision Tree Classifier model by capturing more positive cases (buyers).
 Conclusion:
-The Random Forest Classifier proved to be the most effective model for predicting user purchases based on social network ads, highlighting its capacity to manage complex data relationships. This project illustrates the potential of machine learning techniques to improve marketing strategies by accurately targeting potential customers.
+The Logistic Regression proved to be the most effective model for predicting user purchases based on social network ads, highlighting its capacity to manage complex data relationships. This project illustrates the potential of machine learning techniques to improve marketing strategies by accurately targeting potential customers.
